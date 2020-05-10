@@ -1,0 +1,21 @@
+nav{
+font-family: 'Exo 2', sans-serif;
+font-weight: 700;
+}
+
+#mainsite{
+	font-family: 'Exo 2', sans-serif;
+}
+
+.empty{
+	height: 80px;
+}
+
+.jumbohead{
+	height: 2rem;
+}
+
+img{
+	width: 100%;
+}
+

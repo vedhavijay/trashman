@@ -19,6 +19,7 @@ nav{
 	font-family: 'Exo 2', sans-serif;
 	background-color: #7bf870;
 	height: 20rem;
+	width: 100%;
 }
 
 .highlight h1{
@@ -30,7 +31,7 @@ nav{
 }
 
 .highlight p{
-	font-size: 1rem;
+	font-size: 1.1rem;
     font-family: 'Cambria', sans-serif;
 }
 
@@ -110,6 +111,10 @@ nav{
 	transition-duration: 2s;
 }
 
+.footercontents div p{
+	font-family: 'Cambria', sans-serif;
+}
+
 
 @media screen and (max-width: 520px){
 	.enddd{
@@ -149,6 +154,10 @@ nav{
   	padding-top: 8rem;
   	height: 28rem;
   }
+
+  .highlight{
+  	text-align: center;
+  }
 }
 
 @media screen and (max-width: 800px){
@@ -182,11 +191,29 @@ nav{
   }
 
   .footer{
-  	height: 12rem;
+  	height: 10rem;
   }
 
   .jumboexpand{
   	padding-top: 8rem;
   	height: 28rem;
   }
+
+  .highlight{
+  	text-align: center;
+  }
+}
+
+@media screen and (max-width: 425px){
+	.footer{
+		height: 15rem;
+	}
+
+	.trashman{
+		font-size: 2rem;
+	}
+}
+
+@media screen and (max-width: 350px){
+
 }

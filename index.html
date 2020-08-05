@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Trashman - A Waste Management Company</title>
 	<link rel="stylesheet" type="text/css" href="CSS/index.css">
@@ -9,9 +10,22 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.css">
 	<link rel="stylesheet" href="CSS/owl.carousel.min.css">
 	<link rel="stylesheet" href="CSS/owl.theme.default.min.css">
+	<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  	<script>
+  	  jQuery(document).ready(function( $ ) {
+  	      $('.counter').counterUp({
+  	          delay: 10,
+  	          time: 1000
+  	      });
+  	  });
+  	</script>
 </head>
 <body>
 	<div class="frontbg">
+
+		<!-- NAV BAR -->
+
 		<nav class="container navbar navbar-expand-lg navbar-light">
 			<a class="navbar-brand" href="index.html">
 	    		<img src="IMAGES/logo.png" width="50" height="50" class="d-inline-block align-center" alt="">
@@ -43,11 +57,13 @@
 
 		<div class="empty"></div>
 
+		<!-- TOP JUMBOTRON -->
+
 		<div class="container mt-2 mt-lg-0" id="afterNav">
 			<h1 class="mt-5 highlight animated fadeIn wow" data-wow-delay="0.4s">A Door To Door, Online Scrap collection Service In Chennai </h1>
 			<div class="row">
 				<div class="col-md-12 col-lg-9">
-					<p class="paralight mt-3 animated fadeIn wow" data-wow-delay="0.67s">We buy and recycle all kinds of recyclable Paper, Plastic, Cardboard, Metal, E-Waste and Home Appliances.</p>
+					<p class="paralight mt-5 mt-lg-3 animated fadeIn wow" data-wow-delay="0.67s">We buy and recycle all kinds of recyclable Paper, Plastic, Cardboard, Metal, E-Waste and Home Appliances.</p>
 					<div class="mt-4 buttonss">
 						<button class="ml-0 btn btn-light wow fadeInLeft animated btnplay" data-wow-delay="0.85s">Download APP</button>
 						<button class="btn buttonbg wow fadeInLeft animated btnwhtsp" data-wow-delay="0.95s">WhatsApp Us</button>
@@ -60,8 +76,10 @@
 		</div>
 	</div>
 
+	<!-- WHY TRASHMAN -->
+
 	<div class="container" id="afterIntro">
-		<h1 class="text-center whytrashman"><span class="why mr-2">WHY</span><span class="trashman">TRASHMAN</span></h1>
+		<h1 class="text-center whytrashman firstwhytrashman"><span class="why mr-2">WHY</span><span class="trashman">TRASHMAN</span></h1>
 		<p class="text-center small">Recycling with peace</p>
 		<div class="row pt-0 mt-5 pt-lg-5 wow animated fadeIn" data-wow-delay="0.36s">
 			<div class="col-lg-4 col-12">
@@ -69,12 +87,12 @@
 					<div class="col-lg-4 col-12 text-center">
 						<img src="IMAGES\trashtruck.png" class="icons">		
 					</div>
-					<div class="col-lg-8 col-12 mx-0 px-0">
+					<div class="col-lg-8 col-12">
 						<div class="row">
 							<div class="col-lg-12">
-								<p class="iconhead text-center">Door step recycling</p>
+								<p class="iconhead text-center text-lg-left mb-0 mb-lg-1">Door step recycling</p>
 							</div>
-							<div class="col-lg-12 text-center">
+							<div class="col-lg-12 text-center text-lg-left">
 								<p>Recycling is just a click away!</p>
 							</div>
 						</div>
@@ -86,13 +104,13 @@
 					<div class="col-lg-4 text-center">
 						<img src="IMAGES\weighingmachine.png" class="icons">		
 					</div>
-					<div class="col-lg-8 mx-0 px-0">
+					<div class="col-lg-8">
 						<div class="row">
 							<div class="col-lg-12">
-								<p class="iconhead text-center">Accurate measurement</p>
+								<p class="iconhead text-center text-lg-left mb-0 mb-lg-1">Accurate measurement</p>
 							</div>
-							<div class="col-lg-12 text-center">
-								<p>Weights are very accurate with us!</p>
+							<div class="col-lg-12 text-center text-lg-left">
+								<p>Weights are accurate with us!</p>
 							</div>
 						</div>
 					</div>
@@ -103,12 +121,12 @@
 					<div class="col-lg-4 text-center">
 						<img src="IMAGES\plant.png" class="icons">		
 					</div>
- 					<div class="col-lg-8 mx-0 px-0">
+ 					<div class="col-lg-8">
 						<div class="row">
 							<div class="col-lg-12">
-								<p class="iconhead text-center">Plants for trash</p>
+								<p class="iconhead text-center text-lg-left mb-0 mb-lg-1">Plants for trash</p>
 							</div>
-							<div class="col-lg-12 text-center">
+							<div class="col-lg-12 text-center text-lg-left">
 								<p>Get free plants for your trash!</p>
 							</div>
 						</div>
@@ -118,10 +136,12 @@
 		</div>
 	</div>
 
+	<!-- WHAT WE RECYCLE -->
+
 	<div class="container mb-5">
-		<h1 class="text-center whytrashman"><span class="why mr-2">WHAT WE</span><span class="trashman">RECYCLE</span></h1>
-		<p class="text-center small">Drag and Drop</p>
-		<div class="owl-carousel owl-theme mx-0 mt-5 pt-5">
+		<h1 class="text-center whytrashman mt-5"><span class="why mr-2">WHAT WE</span><span class="trashman">RECYCLE</span></h1>
+		<p class="text-center small">Drop here!!</p>
+		<div class="owl-carousel owl-theme pt-0 mt-5 pt-lg-5">
 	   		<div class="item owl-dot active"><img src="IMAGES\1_!.jpg" class="img-fluid scrap" alt=""></div>
 			<div class="item owl-dot"><img src="IMAGES\2_!.jpg" class="img-fluid scrap" alt=""></div>
 			<div class="item owl-dot"><img src="IMAGES\3_!.jpg" class="img-fluid scrap" alt=""></div>
@@ -129,15 +149,17 @@
 		</div>
 	</div>
 
+	<!-- CURVY BG & HOW TRASHMAN WORKS -->
+
 	<div class="secondbg mb-5 mb-md-0">
 		<div class="empty1"></div>
 		<h1 class="text-center trashmanworking"><span class="why mr-2">HOW TRASHMAN</span><span class="trashman">WORKS</span></h1>
 	</div>
 
 	<div class="container">
-		<div class="row mb-5 pb-5 pb-md-0">
+		<div class="row mb-5 pt-0 mt-5 pt-lg-5">
 			<div class="col-12 col-lg-6 order-1 wow fadeInLeft animated text-center" data-wow-delay="0.22s">
-	   			<img src="IMAGES\1.png" class="mt-5 mt-md-none img-fluid item workingimg float-none float-lg-left" alt="">
+	   			<img src="IMAGES\1.png" class="mt-5 pt-5 pt-lg-0 mt-md-none img-fluid item workingimg float-none float-lg-left" alt="">
 			</div>
 			<div class="col-12 col-lg-6 workingdetail my-auto order-2 wow fadeInRight animated text-center text-lg-left" data-wow-delay="0.22s">
 	   			<div class="workingheading">
@@ -148,7 +170,10 @@
 	   			</div>
 			</div>
 		</div>
-		<div class="row mb-5 pb-5 pb-md-0">
+		<div class="row mb-5">
+			<div class="col-12 col-lg-6 order-1 order-lg-2 wow fadeInRight animated text-center" data-wow-delay="0.22s">
+	   			<img src="IMAGES\2_1.png" class="img-fluid item workingimg float-none float-lg-right" alt="">
+			</div>
 			<div class="col-12 col-lg-6 order-2 order-lg-1 workingdetail my-auto wow fadeInLeft animated text-center text-lg-left" data-wow-delay="0.22s">
 	   			<div class="workingheading">
 	   				<p>Door step collection</p>
@@ -157,28 +182,25 @@
 	   				<p>Scrap items are cleared at your door-step in a click</p>	
 	   			</div>
 			</div>
-			<div class="col-12 col-lg-6 order-1 order-lg-2 wow fadeInRight animated text-center" data-wow-delay="0.22s">
-	   			<img src="IMAGES\2_1.png" class="img-fluid item workingimg float-none float-lg-right" alt="">
-			</div>
 		</div>
-		<div class="row mb-5 pb-5 pb-md-0">
-			<div class="col-lg-6 order-1 wow fadeInLeft animated text-center" data-wow-delay="0.22s">
+		<div class="row mb-5">
+			<div class="col-12 col-lg-6 order-1 wow fadeInLeft animated text-center" data-wow-delay="0.22s">
 	   			<img src="IMAGES\tt2.jpg" class="item workingimg img-fluid float-none float-lg-left" alt="">
 			</div>
-			<div class="col-lg-6 workingdetail my-auto order-2 wow fadeInRight animated text-center text-lg-left" data-wow-delay="0.22s">
+			<div class="col-12 col-lg-6 workingdetail my-auto order-2 wow fadeInRight animated text-center text-lg-left" data-wow-delay="0.22s">
 	   			<div class="workingheading">
 	   				<p>Instant cash</p>
 	   			</div>
 	   			<div class="workingdescription">
-	   				<p>Immediate cash is given to customers based with computer generated invoice</p>	
+	   				<p>Immediate cash is given to customers based on computer generated invoice</p>
 	   			</div>
 			</div>
 		</div>
-		<div class="row mb-5 my-auto">
-			<div class="col-lg-6 order-1 order-md-2 wow fadeInRight animated text-center" data-wow-delay="0.22s">
+		<div class="row mb-5">
+			<div class="col-12 col-lg-6 order-1 order-lg-2 wow fadeInRight animated text-center" data-wow-delay="0.22s">
 	   			<img src="IMAGES\4_1.png" class="item workingimg img-fluid float-none float-lg-right" alt="">
 			</div>
-			<div class="col-lg-6 workingdetail my-auto order-2 order-lg-1 wow fadeInLeft animated text-center text-lg-left" data-wow-delay="0.22s">
+			<div class="col-12 col-lg-6 workingdetail my-auto order-2 order-lg-1 wow fadeInLeft animated text-center text-lg-left" data-wow-delay="0.22s">
 	   			<div class="workingheading">
 	   				<p>Sorted & recycled</p>
 	   			</div>
@@ -189,9 +211,40 @@
 		</div>		
 	</div>
 
+	<!-- COUNTER -->
+
+	<div>
+		<h1 class="text-center whytrashman"><span class="why mr-2">IMPACT BY</span><span class="trashman">TRASHMAN</span></h1>
+		<p class="text-center small">Achievement</p>
+		<div class="counterbg mt-5">
+			<div class="container">
+				<div class="row mt-4 countercss align-items-center">
+					<div class="col-12 col-md-6 col-lg-3 text-center cell">
+						<h1 class="display-4"><span class="counter">19,954</span> Kg</h1>
+						<h4>Trash Collected</h4>
+					</div>
+					<div class="col-12 col-md-6 col-lg-3 text-center cell">
+						<h1 class="display-4"><span class="counter">700</span></h1>
+						<h4>Households</h4>
+					</div>
+					<div class="col-12 col-md-6 col-lg-3 text-center cell">
+						<h1 class="display-4"><span class="counter">1977</span></h1>
+						<h4>Customers</h4>
+					</div>
+					<div class="col-12 col-md-6 col-lg-3 text-center cell">
+						<h1 class="display-4"><span class="counter">8594</span></h1>
+						<h4>App Downloads</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- REVIEWS -->
+
 	<div>
 		<h1 class="text-center whytrashman"><span class="why mr-2">WHAT PEOPLE</span><span class="trashman">SAY</span></h1>
-		<p class="text-center small">Reviews</small>
+		<p class="text-center small">Reviews</p>
 		<div class="container">
 			<div class="row justify-content-center mt-5">
 				<div class="col-sm-5 wow fadeIn animated mr-0 mr-md-3" data-wow-delay="0.25s">
@@ -210,52 +263,52 @@
 		</div>
 	</div>
 
+	<!-- ADV FOOTER -->
+
 	<div class="enddd">
 		<div class="overlay">
 			<div class="container">
 				<div class="row align-items-center footercontents">
 					<div class="col-12 col-lg-6">
 						<h1 class="overheading">KAILAN KADAI IN YOUR POCKET</h1>
-						<p class="pr-0 pr-lg-5 pt-3 pt-lg-0">Book your scrap pickup from your mobile & get recycling done on your doorstep, with the all-new Trashman app.</p>
+						<p class="pr-0 pr-lg-5 pt-3 pt-lg-0">Book for scrap pickup from your mobile & Get recycling done at doorstep with all-new Trashman app.</p>
 						<a class="wow fadeIn animated" data-wow-delay="0.67s" href="#"><img class="mt-3 google-play-btn" src="IMAGES/google-play-icon.png" alt="Google Play Icon"></a>
 					</div>
 				</div>
-		</div>
-	</div>
-	</div>
-
-		<div id="contactus" class="footer container-fluid">
-			<div class="row wow fadeIn animated" data-wow-delay="0.67s">
-				<div class="col-lg-8 mt-1 pt-3">
-					<h3 class="font-weight-bold">Trashman (A waste management startup)</h3>
-					<h5>Address : Thandai Periyar Nagar, Kurinji Nagar,<br> Irumbuliyur, Chennai, Tamil Nadu 600045.</h5>
-					<h5>Call : 96000 77930</h5>
-				</div>
-				<div class="col-lg-4 d-none d-lg-flex align-items-center">
-					<img src="IMAGES/mech.png" class="vvklogo">
-					<div class="mech px-2 font-weight-bold">
-						An initiative by <br>mechanical engineers
-					</div>				
-				</div> 
 			</div>
 		</div>
-		
+	</div>
+
+	<!-- ADDRESS_FOOTER -->
+
+	<div id="contactus" class="footer container-fluid">
+		<div class="row wow fadeIn animated" data-wow-delay="0.67s">
+			<div class="col-lg-8 mt-1 pt-3">
+				<h3 class="font-weight-bold">Trashman (A waste management startup)</h3>
+				<h5>Address : Thandai Periyar Nagar, Kurinji Nagar,<br> Irumbuliyur, Chennai, Tamil Nadu 600045.</h5>
+				<h5>Call : 96000 77930</h5>
+			</div>
+			<div class="col-lg-4 d-none d-lg-flex align-items-center">
+				<img src="IMAGES/mech.png" class="vvklogo">
+				<div class="mech px-2 font-weight-bold">
+					An initiative by <br>mechanical engineers
+				</div>				
+			</div> 
+		</div>
 	</div>
 	
+	<!-- owl-carousel -->
 
-
-<!-- owl-carousel -->
-
-	
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
 	<script type="text/javascript" src="JS/wow.min.js"></script>
 	<script src="JS/owl.carousel.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<script src="JS/jquery.counterup.min.js"></script>
 	<script type="text/javascript">
 		new WOW().init();
-
-		var owl = $('.owl-carousel');
+		var owl = $('.owl-carousel');		
 		owl.owlCarousel({
 		    loop:true,
 		    nav:true,
@@ -271,7 +324,7 @@
         		    items:1,
         		},
         		900:{
-        		    items:3,
+        		    items:2,
         		},
         		1000:{
         		    items:3,
@@ -300,3 +353,4 @@
 	</script>	
 </body>
 </html>
+

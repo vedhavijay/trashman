@@ -40,9 +40,8 @@ font-weight: 700;
 }
 
 .paralight{
-	font-size: 20px;
+	font-size: 1.1rem;
     font-family: 'Cambria', sans-serif;
-
 }
 
 .btn{
@@ -165,7 +164,81 @@ font-weight: 700;
 	font-weight: 400;
 }
 
+.countercss{
+    font-family: 'Exo 2', sans-serif;
+}
+
+.counterbg{
+	    background-color: #7bf870;
+}
+
+.cell{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 800px){
+	.firstwhytrashman{
+		margin-top: 3rem;
+	}
+
+	.highlight{
+		text-align: center;
+		font-size: 40px;
+    	letter-spacing: 2px;
+    	line-height: 1;
+    	margin-top: 3px;
+	}
+	.paralight{
+		text-align: center;
+	}
+	.buttonss{
+		text-align: center;
+	}
+	.empty{
+		display: none;
+	}
+
+	.enddd{
+	margin-top: 50px;
+	background-size: auto;
+	background-position: 60% 60%;
+	overflow: hidden;
+	height: 300px;
+	}
+
+	.overheading{
+	color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.7rem;
+    margin-top: 5px;
+	}
+
+	.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    overflow-x: hidden;
+  }
+
+  .footercontents{
+  	height: inherit;
+  	text-align: center;
+  	color: white;
+  	height: 300px;
+  }
+
+  .footer{
+  	height: 10rem;
+  }
+
+}
+
 @media screen and (max-width: 520px){
+	.firstwhytrashman{
+		margin-top: 9rem;
+	}
+
 	.whytrashman{
 		margin-top: 6rem;
 	}
@@ -179,6 +252,7 @@ font-weight: 700;
 	}
 	.paralight{
 		text-align: center;
+		font-size: 1rem;
 	}
 	.buttonss{
 		text-align: center;
@@ -226,59 +300,33 @@ font-weight: 700;
 
 }
 
-@media screen and (max-width: 800px){
-	.whytrashman{
-		margin-top: 6rem;
+@media screen and (max-width: 425px){
+	.firstwhytrashman{
+		margin-top: 9rem;
 	}
 
-	.highlight{
-		text-align: center;
-		font-size: 40px;
-    	letter-spacing: 2px;
-    	line-height: 1;
-    	margin-top: 3px;
-	}
-	.paralight{
-		text-align: center;
-	}
-	.buttonss{
-		text-align: center;
-	}
-	.empty{
-		display: none;
+	.footer{
+		height: 15rem;
 	}
 
-	.enddd{
-	margin-top: 50px;
-	background-size: auto;
-	background-position: 60% 60%;
-	overflow: hidden;
-	height: 300px;
-	}
+	.fallBack{
+  	margin-top: 22rem;
+  	}
 
-	.overheading{
-	color: white;
-    font-family: 'Exo 2', sans-serif;
-    font-size: 1.7rem;
-    margin-top: 5px;
-	}
-
-	.overlay {
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    overflow-x: hidden;
-  }
-
-  .footercontents{
-  	height: inherit;
-  	text-align: center;
-  	color: white;
-  	height: 300px;
-  }
-
-  .footer{
-  	height: 12rem;
-  }
 
 }
+
+@media screen and (max-width: 350px){
+	.firstwhytrashman{
+		margin-top: 14rem;
+	}
+
+	.fallBack{
+  	margin-top: 25rem;
+  	}
+
+  	.workingheading{
+  		line-height: 2rem;
+  	}
+}
+
